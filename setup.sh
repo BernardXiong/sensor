@@ -1,6 +1,6 @@
-sudo apt-get install scons 
-sudo apt-get update
-sudo apt-get install libc6-i386 lib32z1 astyle
+sudo apt-get -y install scons 
+sudo apt-get -y update
+sudo apt-get -y install libc6-i386 lib32z1 astyle
 
 git clone https://github.com/RT-Thread/rt-thread.git
 git clone https://code.csdn.net/RT-Thread/sensor.git
